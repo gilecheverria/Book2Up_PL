@@ -27,4 +27,9 @@ Managing inventory is a daunting task. Nowadays there are business that are not 
 ## Proposed solution
 To solve the problem listed before, our project consist in simulating a bookstore inventory management system, we have seen this scenario being solved in multiple programming languages, in this case we are going to be using elixir as it was one of the languages we saw in class. 
 
-First, we are planning to have a CSV file containing all the books with the following information: SKU, title, author, description, price and the quantity. We are going to open the file, as seen in class, modify it's contents depending on what the option to be done is like adding a book, increase or decrease the quantity. 
+First, we are planning to have a CSV file containing all the books with the following information: SKU, title, author, description, price and the quantity. We are going to open the file, as seen in class, modify it's contents depending on what the option to be done is like, adding a book, modifying books or deleting them.
+
+As for lists, we will use them as a shopping cart, and with the help of recursion we will make the operations on the quantity, like decreasing and calculating the price. 
+
+### Note:
+These are the basic functionalities that we are thinking as of now, maybe later we will add some more, depending on the feedback we are receiving and how we manage to work with elixir. 
